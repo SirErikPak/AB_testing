@@ -11,6 +11,8 @@ from .statistics import (
     chi_square_test,
     calculate_sample_size,
     calculate_confidence_interval,
+    calculate_relative_uplift,
+    is_statistically_significant,
 )
 
 __version__ = "0.1.0"
@@ -22,4 +24,6 @@ __all__ = [
     "chi_square_test",
     "calculate_sample_size",
     "calculate_confidence_interval",
+    "calculate_relative_uplift",
+    "is_statistically_significant",
 ]
