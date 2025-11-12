@@ -3,6 +3,12 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# ignore other files that may be created by Python
+Data/
+.DS_Store
+.ipynb_checkpoints
+*test*.*
+
 # C extensions
 *.so
 
